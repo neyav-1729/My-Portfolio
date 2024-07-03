@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<script src="https://kit.fontawesome.com/0bb8e7f3d9.js" crossorigin="anonymous"></script>
+<body>
+  
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="IMAGES/n-logo.avif" alt="">
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          
+        </ul>
+        
+      </nav>
+      <div class="header-text">
+        
+        <div>
+          <p style="margin-bottom: 10px;">WEB DEVELOPER</p>
+          <h1>Hello , I am <span>Neha Yadav</span>, hailing from Delhi.</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- about -->
+
+  <div id="about">
+    <div class="conatiner">
+      <div class="row">
+        <div class="about-col-1">
+           <h1 class="sub-title">About Me</h1>
+           <img width="380px" src="IMAGES/face.jpg" alt="">
+           <p>My name is Neha Yadav, and I am an aspiring web developer with a strong passion for creating dynamic and engaging user experiences. Currently pursuing my B.Tech in Information Technology at Netaji Subhas University of Technology (NSUT).I have also honed my skills in data structures using Java.I have been actively involved in several projects, including a project management tool and a carbon footprint tracker.
+            <br>
+            <br>
+            Apart from my technical pursuits, I am an experienced anchor with a background in hosting events since school.
+            <br>
+            I look forward to leveraging my skills and experiences to contribute to meaningful projects and make a positive impact in the tech community.</p>
+
+            <!-- tabtitle -->
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills');">Skills</p>
+              <p class="tab-links" onclick="opentab('experience');">Experience</p>
+              <p class="tab-links" onclick="opentab('education');">Education</p>
+            </div>
+
+             <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web Developer</span><br>html,css and javascript</li>
+                <li><span>Data Structures using Java</span><br>high problem solving</li>
+                <li><span>DBMS,OOPS and OS</span><br>cs fundamentals</li>
+              </ul>
+             </div>
+             <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>March 2024-June 2024</span><br>Teaching Assistant for DSA using Java at Coding Ninjas</li>
+              </ul>
+             </div>
+             <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2022-2026</span><br>Netaji Subhas University of Technology</li>
+                <li><span>2014-2021</span><br>Greenway Modern School</li>
+              </ul>
+             </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- services --> 
+   <div id="services">
+    <div class="container">
+       <h1 class="sub-title">My Service</h1>
+       <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Developer</h2>
+            <br>
+            <p>As a web developer, I create websites that are easy to use and look great. I specialize in making sure websites work well on all devices and are engaging for users. I can build various platforms, like project management tools and start-up boards, always focusing on what users need. My goal is to provide practical and effective solutions, especially for startups.</p>
+            <!-- <a href="#">Learn More</a> -->
+          </div>
+       </div>
+    </div>
+   </div>
+
+   <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="IMAGES/weather-app.webp" alt="">
+              <div class="layer">
+                <h3>Weather Info</h3>
+                <br>
+                <p>It is a website that used html ,css and javascript along with an API to give information about weather details all around the world</p>
+                <a href="https://yneha-weather-web.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img   src="IMAGES/rock.png" alt="">
+              <br>
+              <div class="layer">
+                <h3>Rock Paper Scissors</h3>
+                <br>
+                <p>It is a website that used html ,css and javascript to build a simple rock paper scissors game</p>
+                <a href="https://yneha-ro-sham-bo.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="IMAGES/image_app.png" alt="">
+              <div class="layer">
+                <h3>Image Search Site</h3>
+                <br>
+                <p>It is a website that uses HTML, CSS, and JavaScript, along with an API, to generate various images based on the user's search.</p>
+                <a href="https://yneha-search.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </div>
+         <a href="https://github.com/neyav-1729?tab=repositories" target="_blank"  class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- Contact -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+             <h1 class="sub-title">Contact Me</h1>
+             <p> <i class="fa-solid fa-envelope"></i>y.neha112017@gmail.com</p>
+             <p><i class="fa-solid fa-phone"></i>+91 8800427321</p>
+             <div class="social-icons">
+              <a href="https://www.linkedin.com/in/neha-yadav-982a07279/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://x.com/neyav2003" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+             </div>
+             <a href="IMAGES/NEHA YADAV_NSUT.pdf" download class="btn btn2">Download Resume</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name"  placeholder="Your Name" required> 
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+   
+  <script src="script.js">
+    
+  </script>
+
+<script>
+  const scriptURL = "https://script.google.com/macros/s/AKfycbxSvd-uBpiUHc7Yo3B4x0b5cWg4e7yHeglAwGsSVv0CWP-km2w8qhA9eU8QIcK_DPc/exec";
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg");
+  
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message Sent Successfully";
+        setTimeout(function(){
+          msg.innerHTML="";
+        }, 5000);
+
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
