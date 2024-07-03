@@ -18,8 +18,8 @@ Feel free to fork this repository and submit pull requests. For major changes, p
 Contact
 You can reach me at:
 
-Email: y.neha112017@gmail.com
-LinkedIn: https://www.linkedin.com/in/neha-yadav-982a07279/
-Twitter: @neyav2003  or https://x.com/neyav2003
+-> Email: y.neha112017@gmail.com
+-> LinkedIn: https://www.linkedin.com/in/neha-yadav-982a07279/
+-> Twitter: @neyav2003  or https://x.com/neyav2003
 
 
